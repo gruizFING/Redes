@@ -1,0 +1,9 @@
+clear screen
+rm -f kprox
+rm -f debug
+rm -f debug2
+rm -f debug3
+qmake -o Makefile kprox.pro
+make
+./kprox
+
